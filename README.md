@@ -31,8 +31,6 @@ Go to `react-native-kenburns-view/example/KenBurnsExample` to view the example.
 |**`tension`**| `int` Tension Value. |
 |**`friction`**| `int` Friction Value. |
 |**`containerStyle`**| `Object` Style for container. |
-|~**`sourceUri`**| `URI String` Image URL.~ |
-|~**`placeholderSource`**| `URI String` Placeholder Image URL (Possibly a Local Image).~ |
 
 ## npm
 
