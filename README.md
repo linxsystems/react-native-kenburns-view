@@ -20,7 +20,7 @@ Go to `react-native-kenburns-view/example/KenBurnsExample` to view the example.
 ## Usage
 
 ```jsx
-<BurnsImage tension={4} friction={50} imageWidth={200} imageHeight={100} sourceUri={require(./images/kenburnsimage.jpg)} placeholderSource={require( './images/placeholder.jpg')}>
+<BurnsImage tension={4} friction={50} containerStyle={{flex: 1, borderRadous: 4}}>
 </BurnsImage>
 ```
 
@@ -30,10 +30,9 @@ Go to `react-native-kenburns-view/example/KenBurnsExample` to view the example.
 |---|---|
 |**`tension`**| `int` Tension Value. |
 |**`friction`**| `int` Friction Value. |
-|**`imageWidth`**| `int` Image Width. |
-|**`imageHeight`**| `int` Image Height. |
-|**`sourceUri`**| `URI String` Image URL. |
-|**`placeholderSource`**| `URI String` Placeholder Image URL (Possibly a Local Image). |
+|**`containerStyle`**| `Object` Style for container. |
+|~**`sourceUri`**| `URI String` Image URL.~ |
+|~**`placeholderSource`**| `URI String` Placeholder Image URL (Possibly a Local Image).~ |
 
 ## npm
 
